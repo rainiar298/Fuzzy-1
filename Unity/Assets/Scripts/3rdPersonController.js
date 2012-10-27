@@ -13,6 +13,7 @@ function Update () {
 	var forward = transform.TransformDirection(Vector3.forward);
 	var currentSpeed = speed * Input.GetAxis("Vertical");
 	controller.SimpleMove(forward * currentSpeed);
+	print(transform.position);
 }
 
 @script RequireComponent(CharacterController)

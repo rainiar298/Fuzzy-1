@@ -44,7 +44,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -89,9 +89,6 @@ ModelImporter:
       data:
         first: 33
         second: a45a3200
-      data:
-        first: 64
-        second: 00a86100
     Cool_sunglasses:
       data:
         first: 1
@@ -105,9 +102,6 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
-      data:
-        first: 64
-        second: 02a86100
     L_Hand_Controller:
       data:
         first: 1
@@ -128,9 +122,6 @@ ModelImporter:
       data:
         first: 33
         second: a65a3200
-      data:
-        first: 64
-        second: 04a86100
     R_Hand_Controller:
       data:
         first: 1
@@ -151,9 +142,6 @@ ModelImporter:
       data:
         first: 33
         second: a25a3200
-      data:
-        first: 64
-        second: 06a86100
     Sunglasses:pPlane1:
       data:
         first: 1

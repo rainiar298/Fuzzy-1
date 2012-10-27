@@ -43,7 +43,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -102,9 +102,6 @@ ModelImporter:
       data:
         first: 33
         second: a45a3200
-      data:
-        first: 64
-        second: 04a86100
     F_Lightning_Controller:
       data:
         first: 1
@@ -167,9 +164,6 @@ ModelImporter:
       data:
         first: 33
         second: a25a3200
-      data:
-        first: 64
-        second: 00a86100
     L_LF_Lightning:
       data:
         first: 1
@@ -302,9 +296,6 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
-      data:
-        first: 64
-        second: 02a86100
     R_Lightning_Controller:
       data:
         first: 1

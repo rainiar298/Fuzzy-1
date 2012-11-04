@@ -5,6 +5,9 @@ ModelImporter:
     4300000: Body_Mesh
     4300002: L_Hand_Mesh
     4300004: R_Hand_Mesh
+    4300006: Body
+    4300008: L_Hand
+    4300010: R_Hand
     7400000: Take 001 //// Magnetic_Fuzzy
     7400002: Walk //// Magnetic_Fuzzy
     7400004: Stand //// Magnetic_Fuzzy
@@ -62,6 +65,19 @@ ModelImporter:
       data:
         first: 111
         second: 605fa900
+    Body:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
     Body_Controller:
       data:
         first: 1
@@ -69,56 +85,71 @@ ModelImporter:
       data:
         first: 4
         second: 8c1a0600
-    Body_Mesh:
+    L_Arm_orientation_Control:
       data:
         first: 1
         second: a0860100
       data:
         first: 4
         second: 801a0600
-      data:
-        first: 23
-        second: 60182300
-      data:
-        first: 33
-        second: a05a3200
-    L_Hand_Controller:
-      data:
-        first: 1
-        second: a4860100
-      data:
-        first: 4
-        second: 841a0600
-    L_Hand_Mesh:
+    L_Arm_position_Controller:
       data:
         first: 1
         second: a2860100
       data:
         first: 4
         second: 821a0600
-      data:
-        first: 23
-        second: 62182300
-      data:
-        first: 33
-        second: a25a3200
-    R_Hand_Controller:
+    L_Hand:
       data:
         first: 1
-        second: aa860100
+        second: b4860100
       data:
         first: 4
-        second: 8a1a0600
-    R_Hand_Mesh:
-      data:
-        first: 1
-        second: a8860100
-      data:
-        first: 4
-        second: 881a0600
+        second: 941a0600
       data:
         first: 23
         second: 64182300
       data:
         first: 33
         second: a45a3200
+    L_Hand_dummy:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    R_Arm_orientation_Control:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    R_Arm_position_Controller:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    R_Hand:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    R_Hand_dummy:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600

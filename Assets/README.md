@@ -19,5 +19,13 @@ Power ups
 
 Scene's props
 =============
-The office
-----------
+* Chair: short, black (The office\Office_chair_1.mb)
+* Chair: short, red (The office\Office_chair_2.mb)
+* Chair: long, black (The office\Office_chair_3.mb)
+* Desk: angulared (The office\Office_table_1.mb)
+* Desk: with rounded side(The office\Office_table_2.mb)
+* Table: glass (The office\Office_glass_table_1.mb)
+* Door: wooden (The office\Office_door.mb)
+* Bookshelf: empty (The office\Office_shelf_1.mb)
+* Whiteboard: empty (The office\Whiteboard.mb)
+* Window: simple colors (The office\Window.mb)

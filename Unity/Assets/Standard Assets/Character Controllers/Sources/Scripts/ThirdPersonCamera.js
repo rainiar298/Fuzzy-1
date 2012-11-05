@@ -152,8 +152,9 @@ function Apply (dummyTarget : Transform, dummyCenter : Vector3)
 	// Set the height of the camera
 	cameraTransform.position.y = currentHeight;
 	
-	// Always look at the target	
-	SetUpRotation(targetCenter, targetHead);
+	// Always look at the target
+	if (controller.IsJumping())
+		SetUpRotation(targetCenter, targetHead);
 }
 
 function LateUpdate () {

@@ -29,3 +29,4 @@ Scene's props
 * Bookshelf: empty (The office\Office_shelf_1.mb)
 * Whiteboard: empty (The office\Whiteboard.mb)
 * Window: simple colors (The office\Window.mb)
+* Desk: 180x70x70, grey, rough (Props\Desk_1.mb);

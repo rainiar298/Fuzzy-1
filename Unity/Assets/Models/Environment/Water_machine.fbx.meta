@@ -3,6 +3,7 @@ guid: e9b85591744e0b147896e2005d4c8ca3
 ModelImporter:
   fileIDToRecycleName:
     4300000: watermch_Object__0
+    4300002: Water_machine
   serializedVersion: 10
   materials:
     importMaterials: 1

@@ -3,6 +3,7 @@ guid: ad83e5f4e6617ee42a1aeab1844ee659
 ModelImporter:
   fileIDToRecycleName:
     4300000: fridge1_Object__0
+    4300002: Fridge
   serializedVersion: 10
   materials:
     importMaterials: 1

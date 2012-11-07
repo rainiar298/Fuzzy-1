@@ -1,38 +1,8 @@
 fileFormatVersion: 2
-guid: a8e2658845f5df342a6001e27d37533e
+guid: f4c24821ca033924c9cb146e2a83741a
 ModelImporter:
   fileIDToRecycleName:
-    4300000: Object__0
-    4300002: Object__1
-    4300004: Object__2
-    4300006: Object__3
-    4300008: Object__4
-    4300010: Object__5
-    4300012: Object__6
-    4300014: Object__7
-    4300016: Object__8
-    4300018: Object__9
-    4300020: Object__10
-    4300022: Object__11
-    4300024: Object__12
-    4300026: Object__13
-    4300028: door02_Object__0
-    4300030: Object__14
-    4300032: Object__15
-    4300034: Object__16
-    4300036: Object__17
-    4300038: Object__18
-    4300040: Object__19
-    4300042: Object__20
-    4300044: Object__21
-    4300046: Object__22
-    4300048: Object__23
-    4300050: Object__24
-    4300052: Object__25
-    4300054: Object__26
-    4300056: Object__27
-    4300058: door02_Object__1
-    4300060: Kitchen_counter
+    4300000: Chair_5
   serializedVersion: 10
   materials:
     importMaterials: 1

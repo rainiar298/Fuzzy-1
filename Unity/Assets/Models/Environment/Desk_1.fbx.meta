@@ -6,6 +6,7 @@ ModelImporter:
     4300002: Desk
     4300004: Handle
     4300006: Handle1
+    4300008: Desk_1
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -57,22 +58,13 @@ ModelImporter:
       data:
         first: 4
         second: 841a0600
-      data:
-        first: 23
-        second: 62182300
-      data:
-        first: 33
-        second: a25a3200
-      data:
-        first: 64
-        second: 04a86100
-    Handle:
+    Desk_1:
       data:
         first: 1
-        second: a2860100
+        second: ae860100
       data:
         first: 4
-        second: 821a0600
+        second: 8e1a0600
       data:
         first: 23
         second: 60182300
@@ -82,6 +74,20 @@ ModelImporter:
       data:
         first: 64
         second: 00a86100
+    Desk_1_:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    Handle:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
     Handle1:
       data:
         first: 1
@@ -89,12 +95,80 @@ ModelImporter:
       data:
         first: 4
         second: 861a0600
+    polySurface35:
       data:
-        first: 23
-        second: 64182300
+        first: 1
+        second: ba860100
       data:
-        first: 33
-        second: a45a3200
+        first: 4
+        second: 9a1a0600
+    polySurface36:
       data:
-        first: 64
-        second: 02a86100
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    polySurface37:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    polySurface38:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    transform10:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    transform11:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    transform12:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    transform13:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    transform14:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    transform15:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    transform16:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600

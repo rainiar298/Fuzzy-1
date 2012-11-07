@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: fb0cfeedf398ed841b9e6b9cb80628d8
+guid: 062f2896c7af86b49852b0821914ee92
 ModelImporter:
   fileIDToRecycleName:
-    4300000: Body_Mesh
-    4300002: L_Hand_Mesh
-    4300004: R_Hand_Mesh
-    7400000: Take 001 //// Ice_Fuzzy
-    7400002: Walk //// Ice_Fuzzy
-    7400004: Shoot //// Ice_Fuzzy
-    7400006: Stand //// Ice_Fuzzy
+    4300000: Lower_body
+    4300002: Upper_body
+    4300004: L_Hand
+    4300006: R_Hand
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -23,22 +20,7 @@ ModelImporter:
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
-    clipAnimations:
-    - name: Walk
-      firstFrame: 1
-      lastFrame: 48
-      wrapMode: 0
-      loop: 1
-    - name: Shoot
-      firstFrame: 49
-      lastFrame: 72
-      wrapMode: 0
-      loop: 0
-    - name: Stand
-      firstFrame: 73
-      lastFrame: 96
-      wrapMode: 0
-      loop: 1
+    clipAnimations: []
   meshes:
     lODScreenPercentages: []
     globalScale: .00999999978
@@ -61,48 +43,20 @@ ModelImporter:
     //RootNode:
       data:
         first: 1
-        second: aa860100
-      data:
-        first: 4
-        second: 8a1a0600
-      data:
-        first: 111
-        second: 605fa900
-    Body_Controller:
-      data:
-        first: 1
-        second: a0860100
-      data:
-        first: 4
-        second: 801a0600
-    Body_Mesh:
-      data:
-        first: 1
         second: a6860100
       data:
         first: 4
         second: 861a0600
       data:
         first: 23
-        second: 62182300
+        second: 66182300
       data:
         first: 33
-        second: a25a3200
-    Frost_fog:
+        second: a65a3200
       data:
-        first: 1
-        second: ac860100
-      data:
-        first: 4
-        second: 8c1a0600
-    L_Hand_Controller:
-      data:
-        first: 1
-        second: a2860100
-      data:
-        first: 4
-        second: 821a0600
-    L_Hand_Mesh:
+        first: 111
+        second: 605fa900
+    L_Hand:
       data:
         first: 1
         second: a4860100
@@ -111,27 +65,33 @@ ModelImporter:
         second: 841a0600
       data:
         first: 23
-        second: 60182300
-      data:
-        first: 33
-        second: a05a3200
-    R_Hand_Controller:
-      data:
-        first: 1
-        second: a8860100
-      data:
-        first: 4
-        second: 881a0600
-    R_Hand_Mesh:
-      data:
-        first: 1
-        second: ae860100
-      data:
-        first: 4
-        second: 8e1a0600
-      data:
-        first: 23
         second: 64182300
       data:
         first: 33
         second: a45a3200
+    R_Hand:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    Upper_body:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200

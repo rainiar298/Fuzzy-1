@@ -83,3 +83,9 @@ Temp
 /Assets/sourceimages/Texture/.mayaSwatches/*.swatch
 /Assets/scenes/Props/*.fbx
 /Assets/sourceimages/Texture/Objects/.mayaSwatches/*.swatch
+/Assets/scenes/Character form/.mayaSwatches/*.swatches
+/Assets/sourceimages/.mayaSwatches/*.swatch
+/Assets/sourceimages/*.als
+/Assets/scenes/Character form/*.fbx
+/Assets/scenes/PowerUps/*.fbx
+/Assets/sourceimages/mask/*.als

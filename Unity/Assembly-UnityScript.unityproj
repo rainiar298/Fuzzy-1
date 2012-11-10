@@ -44,13 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\3rdPersonController.js" />
-     <Compile Include="Assets\Scripts\MouseControlCamera.js" />
-     <Compile Include="Assets\Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\Scripts\characterScript.js" />
-     <Compile Include="Assets\Scripts\projectileScript.js" />
-     <Compile Include="Assets\Scripts\shootingScript.js" />
-     <Compile Include="Assets\Scripts\startScript.js" />
+     <Compile Include="Assets\Scripts\Character\projectileScript.js" />
+     <Compile Include="Assets\Scripts\Character\shootingScript.js" />
+     <Compile Include="Assets\Scripts\Game\startScript.js" />
+     <Compile Include="Assets\Scripts\NotUsed\_characterScript.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />

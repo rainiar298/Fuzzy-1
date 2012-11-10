@@ -3,6 +3,9 @@ guid: ed97bdec42f776b4faf66ae3ab4ecef1
 ModelImporter:
   fileIDToRecycleName:
     4300000: Body
+    4300002: Sunglasses
+    4300004: L_Hand
+    4300006: R_Hand
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -45,11 +48,85 @@ ModelImporter:
         first: 4
         second: 801a0600
       data:
+        first: 111
+        second: 605fa900
+    Antimatter_form_sunglasses:pPlane1:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    Antimatter_form_sunglasses:pPlane2:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    Body:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
         first: 23
         second: 60182300
       data:
         first: 33
         second: a05a3200
+    L_Hand:
       data:
-        first: 111
-        second: 605fa900
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    R_Hand:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    Sunglasses:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    transform1:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    transform2:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600

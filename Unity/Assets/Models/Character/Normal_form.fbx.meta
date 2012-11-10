@@ -3,6 +3,8 @@ guid: c734511a4101fc744967bec535eca2b0
 ModelImporter:
   fileIDToRecycleName:
     4300000: Body
+    4300002: R_Hand
+    4300004: L_Hand
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -53,3 +55,29 @@ ModelImporter:
       data:
         first: 111
         second: 605fa900
+    L_Hand:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    R_Hand:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200

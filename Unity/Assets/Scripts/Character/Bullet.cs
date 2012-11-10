@@ -9,8 +9,8 @@ public class Bullet : MonoBehaviour {
 	public GameObject Electric_bullet;
 	public GameObject Antimatter_bullet;
 	
-	public enum Bullet_Type{Fire, Ice, Electric, Antimatter};
-	public Bullet_Type bType;
+	//public enum Bullet_Type{Fire, Ice, Electric, Antimatter};
+	//public Bullet_Type bType;
 	
 	private GameObject currentModel;
 	
@@ -24,32 +24,23 @@ public class Bullet : MonoBehaviour {
 		Destroy(gameObject, life_time);
 	}
 	
-	public void Set_bullet_type(string new_type)
+	public void Set_bullet_type(PowerUp.Element element)
 	{
-		if (new_type == "Fire")
-			bType = Bullet_Type.Fire;
-		else if (new_type == "Ice")
-			bType = Bullet_Type.Ice;
-		else if (new_type == "Electric")
-			bType = Bullet_Type.Electric;
-		else if (new_type == "Antimatter")
-			bType = Bullet_Type.Antimatter;
-		
-		switch (bType)
+		switch (element)
 		{
-			case Bullet_Type.Fire:
+			case PowerUp.Element.Fire:
 				currentModel = Instantiate(Fire_bullet, transform.position, transform.rotation) as GameObject;
 				currentModel.name = Fire_bullet.name;
 				break;
-			case Bullet_Type.Ice:
+			case PowerUp.Element.Ice:
 				currentModel = Instantiate(Ice_bullet, transform.position, transform.rotation) as GameObject;
 				currentModel.name = Ice_bullet.name;
 				break;
-			case Bullet_Type.Electric:
+			case PowerUp.Element.Electric:
 				currentModel = Instantiate(Electric_bullet, transform.position, transform.rotation) as GameObject;
 				currentModel.name = Electric_bullet.name;
 				break;
-			case Bullet_Type.Antimatter:
+			case PowerUp.Element.Antimatter:
 				currentModel = Instantiate(Antimatter_bullet, transform.position, transform.rotation) as GameObject;
 				currentModel.name = Antimatter_bullet.name;
 				break;

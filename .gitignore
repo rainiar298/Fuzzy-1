@@ -89,3 +89,18 @@ Temp
 /Assets/scenes/Character form/*.fbx
 /Assets/scenes/PowerUps/*.fbx
 /Assets/sourceimages/mask/*.als
+/Assets/scenes/PowerUps/.mayaSwatches/Antimatter_power.mb.swatches
+/Assets/scenes/PowerUps/.mayaSwatches/Electric_power.mb.swatches
+/Assets/scenes/PowerUps/.mayaSwatches/Fire_power.mb.swatches
+/Assets/scenes/PowerUps/.mayaSwatches/Ice_power.mb.swatches
+/Assets/scenes/PowerUps/.mayaSwatches/Magnetic_power.mb.swatches
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Antimatter_power.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Antimatter_power_MAT.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Electric_power_MAT.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Fire_power_MAT.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Ice_power_MAT.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Magnetic_power_North_MAT.psd.Composite.swatch
+/Assets/sourceimages/Texture/PowerUps/.mayaSwatches/Magnetic_power_South_MAT.psd.Composite.swatch
+/Assets/images/fire.png
+/Unity/Assets/Models/Character/Materials/Antimatter_form_Sunglasses_base_MAT.mat
+/Unity/Assets/Models/Character/Materials/Antimatter_form_Sunglasses_base_MAT.mat.meta

@@ -6,6 +6,7 @@ ModelImporter:
     4300002: Front
     4300004: Left
     4300006: Right
+    7400000: Take 001 //// Magnetic_power
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -109,6 +110,13 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
+    group1:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
     pCone1:
       data:
         first: 1

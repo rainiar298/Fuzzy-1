@@ -3,6 +3,8 @@ guid: 1e9c795d80ffdd04daeebde2587e9932
 ModelImporter:
   fileIDToRecycleName:
     4300000: pCone1
+    4300002: polySurface1
+    7400000: Take 001 //// Fire_power
   serializedVersion: 10
   materials:
     importMaterials: 1

@@ -15,16 +15,26 @@ public class Bullet : MonoBehaviour {
 	private GameObject currentModel;
 	
 	public float life_time=1.0f;
+	public int bullet_speed=200;
 	
 	// Use this for initialization
-	void Awake () {
+	public void Shoot() {
 		//Debug.Log ("Kill in 1.0f");
+		rigidbody.AddForce(transform.forward * bullet_speed);
 		Destroy(gameObject, life_time);
 	}
 	
-	void Start(){
-		//Debug.Log ("Transform pos");
-		//Debug.Log (transform.position);
+	public void Set_bullet_type(string new_type)
+	{
+		if (new_type == "Fire")
+			bType = Bullet_Type.Fire;
+		else if (new_type == "Ice")
+			bType = Bullet_Type.Ice;
+		else if (new_type == "Electric")
+			bType = Bullet_Type.Electric;
+		else if (new_type == "Antimatter")
+			bType = Bullet_Type.Antimatter;
+		
 		switch (bType)
 		{
 			case Bullet_Type.Fire:
@@ -45,13 +55,21 @@ public class Bullet : MonoBehaviour {
 				break;
 		};
 		
-    	currentModel.transform.parent = transform;
+		currentModel.transform.parent = transform;
+	}
+	
+	void Start(){
+		//Debug.Log ("Transform pos");
+		//Debug.Log (transform.position);
+		
+		
+    	
 		//Debug.Log ("Model pos");
 		//Debug.Log(currentModel.transform.position);
 	}
 	void OnTriggerEnter(Collider col)
 	{
-		Debug.Log("Collide");
+		Debug.Log("I hit you");
     	if (col.tag == "Player")
     	{
         	//swapModel script = (swapModel)col.GetComponent("swapModel");

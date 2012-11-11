@@ -1,5 +1,11 @@
 Project "Fuzzy" assets contains:
 
+Scale convetion (MUST FOLLOW)
+=============================
+*	Character in all form must be contained within a 6x6x6 cube
+*	Naming for character and materials: **X_form_partName** for mesh, **X_form_partName_MAT** for material
+
+
 Character form
 ==============
 *	Normal (Character form\Normal_form.mb)
@@ -7,7 +13,7 @@ Character form
 *	Ice (Character form\Ice_form.mb)
 *	Electricity (Character form\Electricity_form.mb)
 *	Magnetic (Character form\Magnetic_form.mb)
-*	Antimatter (Character form\Antimatter_form.mb; Character form\Antimatter_form_sunglasses.mb)
+*	Antimatter (Character form\Antimatter_form.mb)
 
 Power ups
 =========

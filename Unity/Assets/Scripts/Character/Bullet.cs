@@ -49,27 +49,14 @@ public class Bullet : MonoBehaviour {
 		currentModel.transform.parent = transform;
 	}
 	
-	void Start(){
-		//Debug.Log ("Transform pos");
-		//Debug.Log (transform.position);
-		
-		
-    	
-		//Debug.Log ("Model pos");
-		//Debug.Log(currentModel.transform.position);
-	}
-	void OnTriggerEnter(Collider col)
+	void OnTriggerEnter(Collider collidedObject)
 	{
-		Debug.Log("I hit you");
-    	if (col.tag == "Player")
+		//Debug.Log("I am hit");
+    	if (collidedObject.tag == "Player")
     	{
-        	//swapModel script = (swapModel)col.GetComponent("swapModel");
-			//script.ChangeModel(element.name);
+        	PlayerHealth script = (PlayerHealth)collidedObject.GetComponent("PlayerHealth");
+			script.AdjustCurrentHealth(-10);
+			Destroy(gameObject);
     	}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

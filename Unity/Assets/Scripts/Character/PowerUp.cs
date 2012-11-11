@@ -39,6 +39,7 @@ public class PowerUp : MonoBehaviour {
 		
     	currentModel.transform.parent = transform;
 	}
+	
 	void OnTriggerEnter(Collider col)
 	{
 		//Debug.Log("Collide");
@@ -47,10 +48,5 @@ public class PowerUp : MonoBehaviour {
         	CharacterForm script = (CharacterForm)col.GetComponent("CharacterForm");
 			script.ChangeForm(elementType);
     	}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

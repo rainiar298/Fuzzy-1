@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class shootBullet : MonoBehaviour {
+public class ShootBullet : MonoBehaviour {
 		
 	public GameObject Bullet;
 	
@@ -25,7 +25,8 @@ public class shootBullet : MonoBehaviour {
 			GameObject spawnPoint = GameObject.Find("spawnPoint");
 			//Debug.Log (spawnPoint.transform.position);
 			CharacterForm script = (CharacterForm)this.GetComponent("CharacterForm");
-			Shoot_Bullet(script.currentForm, spawnPoint.transform.position, transform.rotation);
+			if ((script.currentForm != PowerUp.Element.Normal) && (script.currentForm != PowerUp.Element.Magnetic))
+				Shoot_Bullet(script.currentForm, spawnPoint.transform.position, transform.rotation);
 
 		}
 		

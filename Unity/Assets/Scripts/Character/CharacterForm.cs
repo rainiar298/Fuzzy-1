@@ -16,11 +16,11 @@ public class CharacterForm : MonoBehaviour {
     	currentModel.transform.parent = transform;
 		currentModel.name = normalModel.name;
 		
-		ThirdPersonController tpc = (ThirdPersonController)transform.GetComponent ("ThirdPersonController");
+		/*Movement tpc = (Movement)transform.GetComponent ("Movement");
 		tpc.idleAnimation = normalModel.animation.GetClip ("Walk");
 		tpc.walkAnimation = normalModel.animation.GetClip ("Walk");
 		tpc.jumpPoseAnimation = normalModel.animation.GetClip ("Walk");
-		tpc.runAnimation = normalModel.animation.GetClip ("Walk");
+		tpc.runAnimation = normalModel.animation.GetClip ("Walk");*/
 		
 		currentForm = PowerUp.Element.Normal;
 		
@@ -42,6 +42,11 @@ public class CharacterForm : MonoBehaviour {
 	
 	public void ChangeForm(PowerUp.Element element)
 	{
+		//disbable double jumping for all form, except Magnetic
+		Movement script = (Movement)this.GetComponent("Movement");
+		script.EnableMultipleJump(false);
+		//script.Set_bullet_type(element);
+		
 		switch(element)
 		{
 			case PowerUp.Element.Normal:
@@ -70,6 +75,7 @@ public class CharacterForm : MonoBehaviour {
 			
 				break;
 			case PowerUp.Element.Magnetic:
+				script.EnableMultipleJump(true);
 				change_model(magneticModel, transform.position, transform.rotation);
 				change_form(PowerUp.Element.Magnetic);
 			

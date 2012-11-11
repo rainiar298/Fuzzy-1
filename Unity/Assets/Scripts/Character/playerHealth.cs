@@ -21,12 +21,17 @@ public class PlayerHealth : MonoBehaviour {
 	void OnGUI() {
 		//only show health bar for players -> use this script for generic
 		if (this.tag == "Player")
-			GUI.Box(new Rect(0,0, healthBarLength, 20), currentHealth + "/" + maxHealth);	
+			GUI.Box(new Rect(0,0, healthBarLength, 20), currentHealth + "/" + maxHealth);
 	}
 	
 	void HandleDeath(int health)
 	{
 		Debug.Log("I died");
+	}
+	
+	public bool isFullHealth()
+	{
+		return (currentHealth == maxHealth);
 	}
 	
 	public void AdjustCurrentHealth(int adj){

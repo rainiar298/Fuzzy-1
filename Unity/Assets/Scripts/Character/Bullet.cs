@@ -51,10 +51,10 @@ public class Bullet : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider collidedObject)
 	{
-		//Debug.Log("I am hit");
-    	if (collidedObject.tag == "Player")
+		Debug.Log("I am hit");
+    	if ((collidedObject.tag == "Player") || (collidedObject.tag == "Enemy"))
     	{
-        	PlayerHealth script = (PlayerHealth)collidedObject.GetComponent("PlayerHealth");
+        	CharacterHealth script = (CharacterHealth)collidedObject.GetComponent("CharacterHealth");
 			script.AdjustCurrentHealth(-10);
 			Destroy(gameObject);
     	}

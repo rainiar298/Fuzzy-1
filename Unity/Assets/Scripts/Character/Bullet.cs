@@ -18,14 +18,24 @@ public class Bullet : MonoBehaviour {
 	public int bullet_speed=200;
 	
 	// Use this for initialization
-	public void Shoot() {
+	public void SendFlying() {
 		//Debug.Log ("Kill in 1.0f");
+		if (tag == "Player")
+		{
+			//Debug.Log("Send bullet flying");
+		}
+		
 		rigidbody.AddForce(transform.forward * bullet_speed);
 		Destroy(gameObject, life_time);
 	}
 	
 	public void Set_bullet_type(PowerUp.Element element)
 	{
+		if (tag == "Player")
+		{
+			//Debug.Log("Call set bullet type");
+		}
+		
 		switch (element)
 		{
 			case PowerUp.Element.Fire:
@@ -51,7 +61,7 @@ public class Bullet : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider collidedObject)
 	{
-		Debug.Log("I am hit");
+		//Debug.Log("I am hit");
     	if ((collidedObject.tag == "Player") || (collidedObject.tag == "Enemy"))
     	{
         	CharacterHealth script = (CharacterHealth)collidedObject.GetComponent("CharacterHealth");

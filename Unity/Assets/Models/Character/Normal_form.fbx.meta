@@ -5,6 +5,10 @@ ModelImporter:
     4300000: Body
     4300002: R_Hand
     4300004: L_Hand
+    4300006: L_Sclera
+    4300008: L_Iris
+    4300010: R_Sclera
+    4300012: R_Iris
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -47,14 +51,21 @@ ModelImporter:
         first: 4
         second: 801a0600
       data:
+        first: 111
+        second: 605fa900
+    Body:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
         first: 23
         second: 60182300
       data:
         first: 33
         second: a05a3200
-      data:
-        first: 111
-        second: 605fa900
     L_Hand:
       data:
         first: 1
@@ -68,6 +79,32 @@ ModelImporter:
       data:
         first: 33
         second: a25a3200
+    L_Iris:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    L_Sclera:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
     R_Hand:
       data:
         first: 1
@@ -81,3 +118,29 @@ ModelImporter:
       data:
         first: 33
         second: a45a3200
+    R_Iris:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    R_Sclera:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200

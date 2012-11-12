@@ -6,6 +6,11 @@ ModelImporter:
     4300002: Upper_body
     4300004: L_Hand
     4300006: R_Hand
+    4300008: Body
+    4300010: Hat
+    4300012: Hat_tip
+    4300014: L_Eye
+    4300016: R_Eye
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -48,14 +53,60 @@ ModelImporter:
         first: 4
         second: 861a0600
       data:
+        first: 111
+        second: 605fa900
+    Body:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    Hat:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    Hat_tip:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
         first: 23
         second: 66182300
       data:
         first: 33
         second: a65a3200
+    L_Eye:
       data:
-        first: 111
-        second: 605fa900
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
     L_Hand:
       data:
         first: 1
@@ -69,6 +120,19 @@ ModelImporter:
       data:
         first: 33
         second: a45a3200
+    R_Eye:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
     R_Hand:
       data:
         first: 1
@@ -82,16 +146,3 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
-    Upper_body:
-      data:
-        first: 1
-        second: a2860100
-      data:
-        first: 4
-        second: 821a0600
-      data:
-        first: 23
-        second: 62182300
-      data:
-        first: 33
-        second: a25a3200

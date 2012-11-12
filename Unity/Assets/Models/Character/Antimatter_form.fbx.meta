@@ -6,6 +6,10 @@ ModelImporter:
     4300002: Sunglasses
     4300004: L_Hand
     4300006: R_Hand
+    4300008: L_Glass_piece
+    4300010: R_Glass_piece
+    4300012: Sunglasses_joint
+    4300014: L_Glass_piece1
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -50,20 +54,6 @@ ModelImporter:
       data:
         first: 111
         second: 605fa900
-    Antimatter_form_sunglasses:pPlane1:
-      data:
-        first: 1
-        second: ac860100
-      data:
-        first: 4
-        second: 8c1a0600
-    Antimatter_form_sunglasses:pPlane2:
-      data:
-        first: 1
-        second: ae860100
-      data:
-        first: 4
-        second: 8e1a0600
     Body:
       data:
         first: 1
@@ -77,6 +67,46 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
+    Duplicated_body:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    Hair_group:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+    L_Glass_piece:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    L_Glass_piece1:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
     L_Hand:
       data:
         first: 1
@@ -103,30 +133,23 @@ ModelImporter:
       data:
         first: 33
         second: a25a3200
-    Sunglasses:
+    Sunglasses_joint:
       data:
         first: 1
-        second: aa860100
+        second: ae860100
       data:
         first: 4
-        second: 8a1a0600
+        second: 8e1a0600
       data:
         first: 23
-        second: 64182300
+        second: 6a182300
       data:
         first: 33
-        second: a45a3200
-    transform1:
+        second: aa5a3200
+    pointLight1:
       data:
         first: 1
-        second: a8860100
+        second: b2860100
       data:
         first: 4
-        second: 881a0600
-    transform2:
-      data:
-        first: 1
-        second: a6860100
-      data:
-        first: 4
-        second: 861a0600
+        second: 921a0600

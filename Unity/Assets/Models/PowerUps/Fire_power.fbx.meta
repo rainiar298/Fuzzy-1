@@ -4,6 +4,7 @@ ModelImporter:
   fileIDToRecycleName:
     4300000: pCone1
     4300002: polySurface1
+    4300004: pCube1
     7400000: Take 001 //// Fire_power
   serializedVersion: 10
   materials:
@@ -22,7 +23,7 @@ ModelImporter:
     clipAnimations: []
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     swapUVChannels: 0
@@ -47,11 +48,46 @@ ModelImporter:
         first: 4
         second: 801a0600
       data:
+        first: 111
+        second: 605fa900
+    pCone1:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    pCone2:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    pCube1:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
         first: 23
         second: 60182300
       data:
         first: 33
         second: a05a3200
+    transform1:
       data:
-        first: 111
-        second: 605fa900
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    transform2:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600

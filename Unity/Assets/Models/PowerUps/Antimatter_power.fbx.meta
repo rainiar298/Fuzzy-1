@@ -3,6 +3,10 @@ guid: e250b8b9668fd7b40aa1a0e1d6e23457
 ModelImporter:
   fileIDToRecycleName:
     4300000: pSphere1
+    4300002: pCube2
+    4300004: pTorus1
+    4300006: pTorus2
+    4300008: pTorus3
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -20,7 +24,7 @@ ModelImporter:
     clipAnimations: []
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     swapUVChannels: 0
@@ -61,7 +65,20 @@ ModelImporter:
       data:
         first: 4
         second: 861a0600
-    pSphere1:
+    pCube2:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    pTorus1:
       data:
         first: 1
         second: a2860100
@@ -74,6 +91,32 @@ ModelImporter:
       data:
         first: 33
         second: a05a3200
+    pTorus2:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    pTorus3:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
     transform1:
       data:
         first: 1
